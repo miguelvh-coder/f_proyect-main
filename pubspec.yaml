@@ -44,7 +44,7 @@ dependencies:
   curved_navigation_bar: ^1.0.3
   date_format: ^2.0.2
   cloud_firestore:
-  flutter_map: ^3.1.0
+  flutter_map: ^0.13.0 
   geolocator: ^9.0.2
   latlong2: ^0.8.1
  

@@ -7,6 +7,7 @@ import 'package:loggy/loggy.dart';
 import '../controllers/authentication_controller.dart';
 import '../widgets/chat_page.dart';
 import '../widgets/user_list_page.dart';
+import 'package:f_firebase_202210/ui/widgets/informacion.dart';
 
 class ContentPage extends StatefulWidget {
   const ContentPage({Key? key}) : super(key: key);
@@ -21,7 +22,7 @@ class _ContentPageState extends State<ContentPage> {
   static final List<Widget> _widgets = <Widget>[
     const MyHomePage(title: 'tareas',),
     const UserListPage(),  
-    const UserListPage(),
+    ProfilePage(userEmail: 'm@m.com',)
   ];
 
   _onItemTapped(int index) {
